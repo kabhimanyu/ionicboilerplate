@@ -1,0 +1,8 @@
+{
+  "name": "talentvoice",
+  "app_id": "6afac2e2",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

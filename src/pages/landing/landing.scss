@@ -1,0 +1,36 @@
+page-landing {
+  .background{
+    height:100%;
+    width:100%;
+    background: linear-gradient(10deg,#4E5EFC,#4EE7FC)
+  }
+  .topContent .row-center img {
+    position:relative;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    top:100%;
+    transform:translateY(-50%);
+  }
+  .button{
+    margin-top: 10px;
+  }
+  .scroll-content{
+    text-align: center;
+  }
+  .bottomContent{
+    position: absolute;
+    bottom:3%;
+  }
+  ion-title {
+    text-align: center;
+  }
+  // .h1{
+  //   color:#fff;
+  //   font-size: 3em;
+  //   font-family: 'Gill Sans','Gill Sans MT','sans-serif';
+  //   font-weight: lighter;
+  // }
+
+
+}

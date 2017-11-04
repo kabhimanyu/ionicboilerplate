@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      TALENT VOICE
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="background" cache-view="false">
+  <div class="topContent">
+    <!-- <div>
+      <h1>TALENT VOICE</h1>
+    </div> -->
+    <div class="row row-center">
+      <div class="col text-center" >
+          <img alt="Logo" height="100" src="assets/icon/favicon.ico" >
+      </div>
+    </div>
+    <div class="col col-center bottomContent">
+      <button [navPush]="loginPage" ion-button color="dark" ion-left block>
+        <div>Login</div>
+      </button>
+      <button [navPush]="signUpPage" ion-button color="dark" ion-left block>
+        <div>SignUp</div>
+      </button>
+    </div>
+  </div>
+</ion-content>
